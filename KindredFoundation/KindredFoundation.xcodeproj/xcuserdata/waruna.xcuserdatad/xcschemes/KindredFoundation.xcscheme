@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "880F8CFF1E6D6F4F00B4BBAE"
-               BuildableName = "Kindred.app"
-               BlueprintName = "Kindred"
-               ReferencedContainer = "container:Kindred.xcodeproj">
+               BlueprintIdentifier = "880F8D471E6D750E00B4BBAE"
+               BuildableName = "KindredFoundation.framework"
+               BlueprintName = "KindredFoundation"
+               ReferencedContainer = "container:KindredFoundation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "880F8D131E6D6F4F00B4BBAE"
-               BuildableName = "KindredTests.xctest"
-               BlueprintName = "KindredTests"
-               ReferencedContainer = "container:Kindred.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "880F8D1E1E6D6F4F00B4BBAE"
-               BuildableName = "KindredUITests.xctest"
-               BlueprintName = "KindredUITests"
-               ReferencedContainer = "container:Kindred.xcodeproj">
+               BlueprintIdentifier = "880F8D501E6D750F00B4BBAE"
+               BuildableName = "KindredFoundationTests.xctest"
+               BlueprintName = "KindredFoundationTests"
+               ReferencedContainer = "container:KindredFoundation.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "880F8CFF1E6D6F4F00B4BBAE"
-            BuildableName = "Kindred.app"
-            BlueprintName = "Kindred"
-            ReferencedContainer = "container:Kindred.xcodeproj">
+            BlueprintIdentifier = "880F8D471E6D750E00B4BBAE"
+            BuildableName = "KindredFoundation.framework"
+            BlueprintName = "KindredFoundation"
+            ReferencedContainer = "container:KindredFoundation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -71,16 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "880F8CFF1E6D6F4F00B4BBAE"
-            BuildableName = "Kindred.app"
-            BlueprintName = "Kindred"
-            ReferencedContainer = "container:Kindred.xcodeproj">
+            BlueprintIdentifier = "880F8D471E6D750E00B4BBAE"
+            BuildableName = "KindredFoundation.framework"
+            BlueprintName = "KindredFoundation"
+            ReferencedContainer = "container:KindredFoundation.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,16 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "880F8CFF1E6D6F4F00B4BBAE"
-            BuildableName = "Kindred.app"
-            BlueprintName = "Kindred"
-            ReferencedContainer = "container:Kindred.xcodeproj">
+            BlueprintIdentifier = "880F8D471E6D750E00B4BBAE"
+            BuildableName = "KindredFoundation.framework"
+            BlueprintName = "KindredFoundation"
+            ReferencedContainer = "container:KindredFoundation.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

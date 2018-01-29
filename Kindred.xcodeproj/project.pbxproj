@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		880F8D041E6D6F4F00B4BBAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880F8D031E6D6F4F00B4BBAE /* AppDelegate.swift */; };
-		880F8D061E6D6F4F00B4BBAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880F8D051E6D6F4F00B4BBAE /* ViewController.swift */; };
 		880F8D091E6D6F4F00B4BBAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880F8D071E6D6F4F00B4BBAE /* Main.storyboard */; };
 		880F8D0B1E6D6F4F00B4BBAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880F8D0A1E6D6F4F00B4BBAE /* Assets.xcassets */; };
 		880F8D0E1E6D6F4F00B4BBAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880F8D0C1E6D6F4F00B4BBAE /* LaunchScreen.storyboard */; };
 		880F8D191E6D6F4F00B4BBAE /* KindredTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880F8D181E6D6F4F00B4BBAE /* KindredTests.swift */; };
 		880F8D241E6D6F4F00B4BBAE /* KindredUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880F8D231E6D6F4F00B4BBAE /* KindredUITests.swift */; };
+		880F8D321E6D6F7D00B4BBAE /* AppDelegate+Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880F8D311E6D6F7D00B4BBAE /* AppDelegate+Routing.swift */; };
+		880F8D341E6D708600B4BBAE /* ApplicationFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880F8D331E6D708600B4BBAE /* ApplicationFlowController.swift */; };
+		887F3FB91E6EFFBB00CCAED9 /* KinderedFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 887F3FA61E6EF88300CCAED9 /* KinderedFoundation.framework */; };
+		887F3FBA1E6EFFBB00CCAED9 /* KindredSingleViewApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 887F3FAA1E6EF8A500CCAED9 /* KindredSingleViewApp.framework */; };
+		887F3FBB1E6EFFBB00CCAED9 /* KindredTabApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 887F3FAB1E6EF8A500CCAED9 /* KindredTabApp.framework */; };
+		88861F7D1E7132D70096B370 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88861F7C1E7132D70096B370 /* TabBarController.swift */; };
+		89B37CB52C96DBBE42331D83 /* Pods_Kindred.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA96A8B3501816C4E2E8D68 /* Pods_Kindred.framework */; };
+		AF70C19A815120E7AC8CD910 /* Pods_KindredUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 393EF2FCA99B98B9F0701B8B /* Pods_KindredUITests.framework */; };
+		E75DDB8CD51ED958DD93700B /* Pods_KindredTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 332D920684B95ED0DE655592 /* Pods_KindredTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		130AF8953E51C8D4369A17DA /* Pods-KindredUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KindredUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KindredUITests/Pods-KindredUITests.release.xcconfig"; sourceTree = "<group>"; };
+		332D920684B95ED0DE655592 /* Pods_KindredTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KindredTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38872E82692C3D4DC8F7000D /* Pods-Kindred.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kindred.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kindred/Pods-Kindred.debug.xcconfig"; sourceTree = "<group>"; };
+		393EF2FCA99B98B9F0701B8B /* Pods_KindredUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KindredUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5489A8C8CFEE5A7A9317C6E9 /* Pods-Kindred.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kindred.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kindred/Pods-Kindred.release.xcconfig"; sourceTree = "<group>"; };
 		880F8D001E6D6F4F00B4BBAE /* Kindred.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kindred.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		880F8D031E6D6F4F00B4BBAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		880F8D051E6D6F4F00B4BBAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		880F8D081E6D6F4F00B4BBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		880F8D0A1E6D6F4F00B4BBAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		880F8D0D1E6D6F4F00B4BBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +59,16 @@
 		880F8D1F1E6D6F4F00B4BBAE /* KindredUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KindredUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		880F8D231E6D6F4F00B4BBAE /* KindredUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindredUITests.swift; sourceTree = "<group>"; };
 		880F8D251E6D6F4F00B4BBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880F8D311E6D6F7D00B4BBAE /* AppDelegate+Routing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Routing.swift"; sourceTree = "<group>"; };
+		880F8D331E6D708600B4BBAE /* ApplicationFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationFlowController.swift; sourceTree = "<group>"; };
+		887F3FA61E6EF88300CCAED9 /* KinderedFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KinderedFoundation.framework; path = "../../Library/Developer/Xcode/DerivedData/Kindred-cjhnjfqhjgwztqbqoytjyokocerp/Build/Products/Debug-iphonesimulator/KinderedFoundation/KinderedFoundation.framework"; sourceTree = "<group>"; };
+		887F3FAA1E6EF8A500CCAED9 /* KindredSingleViewApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KindredSingleViewApp.framework; path = "../../Library/Developer/Xcode/DerivedData/Kindred-cjhnjfqhjgwztqbqoytjyokocerp/Build/Products/Debug-iphonesimulator/KindredSingleViewApp/KindredSingleViewApp.framework"; sourceTree = "<group>"; };
+		887F3FAB1E6EF8A500CCAED9 /* KindredTabApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KindredTabApp.framework; path = "../../Library/Developer/Xcode/DerivedData/Kindred-cjhnjfqhjgwztqbqoytjyokocerp/Build/Products/Debug-iphonesimulator/KindredTabApp/KindredTabApp.framework"; sourceTree = "<group>"; };
+		88861F7C1E7132D70096B370 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		9CA96A8B3501816C4E2E8D68 /* Pods_Kindred.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kindred.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54BC225867B115FCD01B3B7 /* Pods-KindredUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KindredUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KindredUITests/Pods-KindredUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1DB69743ECAB9FBE6B9AE24 /* Pods-KindredTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KindredTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KindredTests/Pods-KindredTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5076AF034E1330829E450CC /* Pods-KindredTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KindredTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KindredTests/Pods-KindredTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				887F3FB91E6EFFBB00CCAED9 /* KinderedFoundation.framework in Frameworks */,
+				887F3FBA1E6EFFBB00CCAED9 /* KindredSingleViewApp.framework in Frameworks */,
+				887F3FBB1E6EFFBB00CCAED9 /* KindredTabApp.framework in Frameworks */,
+				89B37CB52C96DBBE42331D83 /* Pods_Kindred.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E75DDB8CD51ED958DD93700B /* Pods_KindredTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +95,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF70C19A815120E7AC8CD910 /* Pods_KindredUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		733E844829D8385FA077EF24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				887F3FAA1E6EF8A500CCAED9 /* KindredSingleViewApp.framework */,
+				887F3FAB1E6EF8A500CCAED9 /* KindredTabApp.framework */,
+				887F3FA61E6EF88300CCAED9 /* KinderedFoundation.framework */,
+				9CA96A8B3501816C4E2E8D68 /* Pods_Kindred.framework */,
+				332D920684B95ED0DE655592 /* Pods_KindredTests.framework */,
+				393EF2FCA99B98B9F0701B8B /* Pods_KindredUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A6D6668894DDA24A112DB8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38872E82692C3D4DC8F7000D /* Pods-Kindred.debug.xcconfig */,
+				5489A8C8CFEE5A7A9317C6E9 /* Pods-Kindred.release.xcconfig */,
+				D1DB69743ECAB9FBE6B9AE24 /* Pods-KindredTests.debug.xcconfig */,
+				D5076AF034E1330829E450CC /* Pods-KindredTests.release.xcconfig */,
+				B54BC225867B115FCD01B3B7 /* Pods-KindredUITests.debug.xcconfig */,
+				130AF8953E51C8D4369A17DA /* Pods-KindredUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		880F8CF71E6D6F4F00B4BBAE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +135,8 @@
 				880F8D171E6D6F4F00B4BBAE /* KindredTests */,
 				880F8D221E6D6F4F00B4BBAE /* KindredUITests */,
 				880F8D011E6D6F4F00B4BBAE /* Products */,
+				7A6D6668894DDA24A112DB8F /* Pods */,
+				733E844829D8385FA077EF24 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +154,10 @@
 			isa = PBXGroup;
 			children = (
 				880F8D031E6D6F4F00B4BBAE /* AppDelegate.swift */,
-				880F8D051E6D6F4F00B4BBAE /* ViewController.swift */,
+				880F8D311E6D6F7D00B4BBAE /* AppDelegate+Routing.swift */,
+				880F8D331E6D708600B4BBAE /* ApplicationFlowController.swift */,
 				880F8D071E6D6F4F00B4BBAE /* Main.storyboard */,
+				88861F7C1E7132D70096B370 /* TabBarController.swift */,
 				880F8D0A1E6D6F4F00B4BBAE /* Assets.xcassets */,
 				880F8D0C1E6D6F4F00B4BBAE /* LaunchScreen.storyboard */,
 				880F8D0F1E6D6F4F00B4BBAE /* Info.plist */,
@@ -132,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 880F8D281E6D6F4F00B4BBAE /* Build configuration list for PBXNativeTarget "Kindred" */;
 			buildPhases = (
+				5F5147022032EABE1DC2C59C /* [CP] Check Pods Manifest.lock */,
 				880F8CFC1E6D6F4F00B4BBAE /* Sources */,
 				880F8CFD1E6D6F4F00B4BBAE /* Frameworks */,
 				880F8CFE1E6D6F4F00B4BBAE /* Resources */,
+				7915235857AA44D67FA4ADF0 /* [CP] Embed Pods Frameworks */,
+				7C939A143EEAC5244F3D1366 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 880F8D2B1E6D6F4F00B4BBAE /* Build configuration list for PBXNativeTarget "KindredTests" */;
 			buildPhases = (
+				E3A3555BA625B9BEF1A674BB /* [CP] Check Pods Manifest.lock */,
 				880F8D101E6D6F4F00B4BBAE /* Sources */,
 				880F8D111E6D6F4F00B4BBAE /* Frameworks */,
 				880F8D121E6D6F4F00B4BBAE /* Resources */,
+				8D326643F118ABE566515C5D /* [CP] Embed Pods Frameworks */,
+				28A5C95937F03AA7B40F239F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 880F8D2E1E6D6F4F00B4BBAE /* Build configuration list for PBXNativeTarget "KindredUITests" */;
 			buildPhases = (
+				D321FC7C95265DD8D3398A86 /* [CP] Check Pods Manifest.lock */,
 				880F8D1B1E6D6F4F00B4BBAE /* Sources */,
 				880F8D1C1E6D6F4F00B4BBAE /* Frameworks */,
 				880F8D1D1E6D6F4F00B4BBAE /* Resources */,
+				839E46D01E68D78C7EE7C6FD /* [CP] Copy Pods Resources */,
+				1F409EBA9CD34C83190B5E06 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,18 +260,21 @@
 				TargetAttributes = {
 					880F8CFF1E6D6F4F00B4BBAE = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 42V4PMT8C4;
+						DevelopmentTeam = 7M7URNW6F9;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					880F8D131E6D6F4F00B4BBAE = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 42V4PMT8C4;
+						DevelopmentTeam = 7M7URNW6F9;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 880F8CFF1E6D6F4F00B4BBAE;
 					};
 					880F8D1E1E6D6F4F00B4BBAE = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 42V4PMT8C4;
+						DevelopmentTeam = 7M7URNW6F9;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 880F8CFF1E6D6F4F00B4BBAE;
 					};
@@ -257,12 +327,152 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F409EBA9CD34C83190B5E06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KindredUITests/Pods-KindredUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28A5C95937F03AA7B40F239F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KindredTests/Pods-KindredTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F5147022032EABE1DC2C59C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7915235857AA44D67FA4ADF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kindred/Pods-Kindred-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C939A143EEAC5244F3D1366 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kindred/Pods-Kindred-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		839E46D01E68D78C7EE7C6FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KindredUITests/Pods-KindredUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D326643F118ABE566515C5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KindredTests/Pods-KindredTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D321FC7C95265DD8D3398A86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3A3555BA625B9BEF1A674BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		880F8CFC1E6D6F4F00B4BBAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				880F8D061E6D6F4F00B4BBAE /* ViewController.swift in Sources */,
+				880F8D321E6D6F7D00B4BBAE /* AppDelegate+Routing.swift in Sources */,
+				88861F7D1E7132D70096B370 /* TabBarController.swift in Sources */,
+				880F8D341E6D708600B4BBAE /* ApplicationFlowController.swift in Sources */,
 				880F8D041E6D6F4F00B4BBAE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,12 +623,20 @@
 		};
 		880F8D291E6D6F4F00B4BBAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38872E82692C3D4DC8F7000D /* Pods-Kindred.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 42V4PMT8C4;
+				DEVELOPMENT_TEAM = 7M7URNW6F9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/KinderedFoundation\"/**",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/KindredSingleViewApp\"/**",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/KindredTabApp\"/**",
+				);
 				INFOPLIST_FILE = Kindred/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nextshift..Kindred;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waruna.Kindred;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -426,12 +644,20 @@
 		};
 		880F8D2A1E6D6F4F00B4BBAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5489A8C8CFEE5A7A9317C6E9 /* Pods-Kindred.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 42V4PMT8C4;
+				DEVELOPMENT_TEAM = 7M7URNW6F9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/KinderedFoundation\"/**",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/KindredSingleViewApp\"/**",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/KindredTabApp\"/**",
+				);
 				INFOPLIST_FILE = Kindred/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nextshift..Kindred;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waruna.Kindred;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -439,13 +665,14 @@
 		};
 		880F8D2C1E6D6F4F00B4BBAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1DB69743ECAB9FBE6B9AE24 /* Pods-KindredTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 42V4PMT8C4;
+				DEVELOPMENT_TEAM = 7M7URNW6F9;
 				INFOPLIST_FILE = KindredTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nextshift..KindredTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waruna.KindredTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kindred.app/Kindred";
@@ -454,13 +681,14 @@
 		};
 		880F8D2D1E6D6F4F00B4BBAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5076AF034E1330829E450CC /* Pods-KindredTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 42V4PMT8C4;
+				DEVELOPMENT_TEAM = 7M7URNW6F9;
 				INFOPLIST_FILE = KindredTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nextshift..KindredTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waruna.KindredTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kindred.app/Kindred";
@@ -469,12 +697,13 @@
 		};
 		880F8D2F1E6D6F4F00B4BBAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B54BC225867B115FCD01B3B7 /* Pods-KindredUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 42V4PMT8C4;
+				DEVELOPMENT_TEAM = 7M7URNW6F9;
 				INFOPLIST_FILE = KindredUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nextshift..KindredUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waruna.KindredUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Kindred;
@@ -483,12 +712,13 @@
 		};
 		880F8D301E6D6F4F00B4BBAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 130AF8953E51C8D4369A17DA /* Pods-KindredUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 42V4PMT8C4;
+				DEVELOPMENT_TEAM = 7M7URNW6F9;
 				INFOPLIST_FILE = KindredUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nextshift..KindredUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waruna.KindredUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Kindred;
@@ -514,6 +744,7 @@
 				880F8D2A1E6D6F4F00B4BBAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		880F8D2B1E6D6F4F00B4BBAE /* Build configuration list for PBXNativeTarget "KindredTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +753,7 @@
 				880F8D2D1E6D6F4F00B4BBAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		880F8D2E1E6D6F4F00B4BBAE /* Build configuration list for PBXNativeTarget "KindredUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +762,7 @@
 				880F8D301E6D6F4F00B4BBAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

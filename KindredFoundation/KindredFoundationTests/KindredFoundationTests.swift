@@ -1,15 +1,15 @@
 //
-//  KindredTests.swift
-//  KindredTests
+//  KindredFoundationTests.swift
+//  KindredFoundationTests
 //
 //  Created by Waruna de Silva on 3/6/17.
 //  Copyright © 2017 Waruna de Silva. All rights reserved.
 //
 
 import XCTest
-@testable import Kindred
+@testable import KindredFoundation
 
-class KindredTests: XCTestCase {
+class KindredFoundationTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

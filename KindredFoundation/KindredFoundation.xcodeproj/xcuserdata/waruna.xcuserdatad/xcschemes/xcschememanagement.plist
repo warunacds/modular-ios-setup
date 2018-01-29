@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Kindred.xcscheme</key>
+		<key>KindredFoundation.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>880F8CFF1E6D6F4F00B4BBAE</key>
+		<key>880F8D471E6D750E00B4BBAE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>880F8D131E6D6F4F00B4BBAE</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>880F8D1E1E6D6F4F00B4BBAE</key>
+		<key>880F8D501E6D750F00B4BBAE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
